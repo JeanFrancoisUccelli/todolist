@@ -54,7 +54,7 @@ h3 {
 .settings {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
   margin: 20px 0;
 }
 .settings p {

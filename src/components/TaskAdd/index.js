@@ -1,7 +1,6 @@
 import React from "react";
 import cn from "classnames";
 import "./style.css";
-import Plusicon from "../../images/plusicon";
 import Arrowicon from "../../images/arrowicon";
 
 export default class TaskAdd extends React.PureComponent {
@@ -25,7 +24,7 @@ export default class TaskAdd extends React.PureComponent {
   };
 
   render() {
-    const { isOpen, value } = this.state;
+    const { isOpen } = this.state;
 
     return (
       <div>

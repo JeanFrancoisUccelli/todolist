@@ -60,6 +60,7 @@ export default class Main extends React.Component {
 
   visibleTasks = () => {
     const { tasks, selected } = this.state;
+    // eslint-disable-next-line
     let filterState = null;
     switch (selected) {
       case "complete":
